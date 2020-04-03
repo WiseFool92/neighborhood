@@ -1,6 +1,5 @@
 // Backend Buisness Logic
 
-
 function evaluateRaw(raw) {
 	var rawArray = [];
 	for (var i = 0; i <= raw; i++) {
@@ -21,6 +20,7 @@ function evaluateRaw(raw) {
 };
 
 // Front End UI logic
+
 $(document).ready(function(){
   $("form#robo").submit(function(event){
     event.preventDefault();
@@ -29,3 +29,5 @@ $(document).ready(function(){
     $("#output").text(evaluateRaw(raw));
   });
 });
+
+$
