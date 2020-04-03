@@ -4,7 +4,10 @@
 function evaluateRaw(raw) {
 	var rawArray = [];
 	for (var i = 0; i <= raw; i++) {
-		if (i.toString().includes("2")){
+		if (i.toString().includes("3")) {
+			rawArray.push("won't you be my neighbor?");
+	}
+		if (i.toString().includes("2")) {
 			rawArray.push("boop");
 	}
 		else if (i.toString().includes("1")) {
@@ -14,8 +17,7 @@ function evaluateRaw(raw) {
 			rawArray.push(" " + i);
 		}
 	}
-
-		return rawArray.join(" ");
+	return rawArray.join(" ");
 };
 
 // Front End UI logic
