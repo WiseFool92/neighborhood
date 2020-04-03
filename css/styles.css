@@ -1,0 +1,20 @@
+#output {
+  display: none;
+}
+
+.container {
+  background-image: linear-gradient(#b06bd1, #e7d686, #fb715f);
+  color: indigo;
+}
+
+body {
+  background-image: url("https://ksr-ugc.imgix.net/assets/024/027/442/31aa2e1255a31091359dac4a90767db9_original.jpg?ixlib=rb-2.0.0&crop=faces&w=1552&h=873&fit=crop&v=1549618448&auto=format&frame=1&q=92&s=2365c84b1ae4159af66f87b9e5caf40f");
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  /* background-position: center; */
+}
+
+h1 {
+  color: #741104;
+  text-align: center;
+}
