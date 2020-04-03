@@ -1,12 +1,9 @@
 // Backend Buisness Logic
-function evaluateRaw(raw) {
-	if (raw)
-}
+
 
 function evaluateRaw(raw) {
-	var rawArray = raw.split("");
-	for (let index = 0; index < rawArray.length; index++);
-	var 
+	var rawArray 
+	
 
 	return rawArray;
 }
