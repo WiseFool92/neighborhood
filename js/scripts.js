@@ -3,10 +3,14 @@
 
 function evaluateRaw(raw) {
 	var rawArray = [];
-	
+	for (var i=0; i<=raw; i++) {
+		if (i.toString().includes("1")) {
+			rawArray.push("beep");
+		}
+	}
 
 	return rawArray;
-}
+};
 
 // Front End UI logic
 $(document).ready(function(){
