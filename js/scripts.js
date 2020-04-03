@@ -7,7 +7,7 @@ function evaluateRaw(raw) {
 		if (i.toString().includes("3")) {
 			rawArray.push("won't you be my neighbor?");
 	}
-		if (i.toString().includes("2")) {
+		else if (i.toString().includes("2")) {
 			rawArray.push("boop");
 	}
 		else if (i.toString().includes("1")) {
