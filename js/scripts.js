@@ -31,10 +31,11 @@ $(document).ready(function(){
 	$("#reverse").click(function(event) {
 		event.preventDefault();
 		var raw = parseInt($("#input#userInput").val());
-		var rawReverse = evaluateRaw(raw);
+		var rawReverse = evaluateRaw(raw).split();
 		var revArr = rawReverse.reverse();
 		var revOut = revArr.join();
 		$("#output").text(revOut);
+		console.log(revOut);
 	})
 });
 
