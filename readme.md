@@ -56,6 +56,9 @@ git clone {link to repository}
 
 
 ---
+## Known Bugs
+
+_Reverse button does not work_ - 4/3/2020
 
 ## Support
 
