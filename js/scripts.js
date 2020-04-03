@@ -23,11 +23,16 @@ function evaluateRaw(raw) {
 
 $(document).ready(function(){
   $("form#robo").submit(function(event){
-    event.preventDefault();
-		
+		event.preventDefault();
 		var raw = parseInt($("input#userInput").val());
     $("#output").text(evaluateRaw(raw));
-  });
+	});
+	
+	$("#reverse").click(function(event) {
+		event.preventDefault();
+		var raw = parseInt($("#input#userInput").val());
+		
+		$("#output").text(evaluateRaw(raw));
+	})
 });
 
-$

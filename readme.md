@@ -36,8 +36,8 @@ git clone {link to repository}
 4. navigate to the new folder that was created on your desktop
 5. select index.html
 6. right click on the file and select _'open with'_
-7. select your browser
-8. enjoy this project
+7. select your preferred browser (works best with Chrome or Firefox)
+8. enjoy
 
 ## Specs
 
