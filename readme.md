@@ -1,12 +1,12 @@
-# _Neighborhood_
+# _Mr. Roboger's Neighborhood_
 
-#### April 2nd, 2020
+#### April 3rd, 2020
 
 ## Description
 
-_This site encrypts the user's inputs_
+_This site returns the user's inputs with silly words/phrases if their input contains a 1, 2, or 3_
 
-_This cryptosquare site is already linked to an index.html, bootstrap.css(4.4.1), styles.css, jQuery.js(3.4.1), and scripts.js._
+_This Mr.Roboger's Neighborhood site is already linked to an index.html, bootstrap.css(4.4.1), styles.css, jQuery.js(3.4.1), and scripts.js._
 
 ## Setup/Installation Requirements
 
@@ -42,20 +42,24 @@ git clone {link to repository}
 ## Specs
 
 ### Behavior Driven Development Spec List
-#### Cryptosquare
+#### Mr. Roboger's Neighborhood
 |                          Behavior                          | Input  | Output  |
 | :--------------------------------------------------------: | :----: | :-----: |
-| The program determines the number of columns/rows to use based on message length | 'Glad you came' | 'letters < 16, 4x4'  |
-| The program takes the message and splits each word into there own column and row | 'Red Car' | '[red],[car]' |  
-| The program should identify if the message fits | 'hidalgo' | 'hida lgo' |
-| The program should slice the array into five character increments | 'Have a nice day' | 'hifei acedl' |
+| The program returns a range of numbers from 0 to the user's input in an array | '4' | '0, 1, 2, 3, 4'  |
+| The program replaces one with "Beep" | '1' | 'Beep' |
+| The program replaces two with "Boop" | '2' | 'Boop' |
+| The program replaces three with "Won't you be my neighbor?" | '3' | 'Won't you be my neighbor?' |
+| Exceptions to the rules | ' ' | ' ' |
+| The program replaces any number containing one with "Beep" | '1' , '13' | 'Beep' , 'Beep' |  
+| The program replaces any number containing two with "Boop" | '2' , '21' | 'Boop' , 'Boop' |
+| The program replaces any number containing three with "Won't you be my neighbor?" | '3' , '32' | 'Won't you be my neighbor?' , 'Won't you be my neighbor?' |
 
 
 ---
 
 ## Support
 
-_Email: watkins92@gmail.com_ , _montelongodominic@gmail.com_
+_Email: watkins92@gmail.com_
 
 ## Built With
 
@@ -97,4 +101,4 @@ _Email: watkins92@gmail.com_ , _montelongodominic@gmail.com_
 
 This project is licensed under the MIT License
 
-Copyright (c) 2020 **_Nathan Watkins-Hoagland & Dom Montelongo_**
+Copyright (c) 2020 **_Nathan Watkins-Hoagland_**
