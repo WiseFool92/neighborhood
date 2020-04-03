@@ -2,7 +2,7 @@
 
 
 function evaluateRaw(raw) {
-	var rawArray 
+	var rawArray = [];
 	
 
 	return rawArray;
