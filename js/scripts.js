@@ -9,10 +9,13 @@ function evaluateRaw(raw) {
 	}
 		else if (i.toString().includes("1")) {
 			rawArray.push("beep");
+	}
+		else {
+			rawArray.push(" " + i);
 		}
 	}
 
-	return rawArray;
+		return rawArray.join(" ");
 };
 
 // Front End UI logic
