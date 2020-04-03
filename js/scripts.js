@@ -31,7 +31,8 @@ $(document).ready(function(){
 	$("#reverse").click(function(event) {
 		event.preventDefault();
 		var raw = parseInt($("#input#userInput").val());
-		
+		var rawReverse = evaluateRaw(raw);
+		rawReverse.reverse(raw);
 		$("#output").text(evaluateRaw(raw));
 	})
 });
