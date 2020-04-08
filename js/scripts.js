@@ -51,7 +51,7 @@ $(document).ready(function(){
 	// How do you get this click to go through?
 	$("#reverse").click(function(event) {
 		event.preventDefault();
-		var raw = parseInt($("#input#userInput").val());
+		var raw = parseInt($("input#userInput").val());
 		$("#output").text(reverseRaw(raw));
 	});
 });
